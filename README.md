@@ -29,7 +29,7 @@ $ vagrant plugin install vagrant-chef-apply*.gem
 
 The Chef-apply Vagrant plugin automatically hooks into the Vagrant provisioning
 middleware. You specify the path to your recipe file and have Chef 11
-in stalled in your image.
+installed in your image.
 [vagrant-omnibus](https://github.com/schisamo/vagrant-omnibus) is
 helpful for installing Chef
 
