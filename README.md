@@ -1,7 +1,7 @@
 # vagrant-chef-apply
 
 A Vagrant plugin that adds chef-apply as a provider.
-This is useful when you want to do something that requires mroe than
+This is useful when you want to do something that requires more than
 shell but do not want to write a full cookbook.
 
 This plugin has been verified to work with the following
