@@ -13,11 +13,11 @@ module VagrantPlugins
           user = @machine.ssh_info[:username]
           comm.sudo("chown -R #{user} #{config.upload_path}",
                     :error_check => false)
-            
-          comm.upload(path.to_s, config.upload_path)
-            
+          
+          comm.upload(config.path, config.upload_path)
+          
           @machine.ui.info(I18n.t("vagrant.provisioners.chef_apply.running",
-                                    script: path.to_s))
+                                  script: config.path))
             
           # Execute it with sudo
           comm.sudo(command) do |type, data|
