@@ -49,6 +49,8 @@ Vagrant.configure("2") do |config|
 end
 ```
 
+See a real world example at [lua-resty-riak](https://github.com/bakins/lua-resty-riak/blob/master/provision.rb).
+
 ## Tests
 
 Patches welcome.
