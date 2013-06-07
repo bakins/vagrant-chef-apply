@@ -19,6 +19,12 @@ Ensure you have downloaded and installed Vagrant 1.1.x from the
 Installation is performed in the prescribed manner for Vagrant 1.1 plugins.
 
 ```
+vagrant plugin install vagrant-chef-apply
+```
+
+or to install from source:
+
+```
 $ git clone https://github.com/bakins/vagrant-chef-apply.git
 $ cd vagrant-chef-apply
 $ gem build vagrant-chef-apply.gemspec
