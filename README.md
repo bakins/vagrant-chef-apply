@@ -1,5 +1,7 @@
 # vagrant-chef-apply
 
+This is now in Vagrant core: https://docs.vagrantup.com/v2/provisioning/chef_apply.html
+
 A Vagrant plugin that adds chef-apply as a provider.
 This is useful when you want to do something that requires more than
 shell but do not want to write a full cookbook.
